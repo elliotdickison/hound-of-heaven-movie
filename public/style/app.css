@@ -120,46 +120,6 @@ a:hover {
     outline: 0;
 }
 
-/* ==========================================================================
-   Typography
-   ========================================================================== */
-
-/**
- * Address font sizes and margins set differently in IE 6/7.
- * Address font sizes within `section` and `article` in Firefox 4+, Safari 5,
- * and Chrome.
- */
-
-h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
-}
-
-h2 {
-    font-size: 1.5em;
-    margin: 0.83em 0;
-}
-
-h3 {
-    font-size: 1.17em;
-    margin: 1em 0;
-}
-
-h4 {
-    font-size: 1em;
-    margin: 1.33em 0;
-}
-
-h5 {
-    font-size: 0.83em;
-    margin: 1.67em 0;
-}
-
-h6 {
-    font-size: 0.67em;
-    margin: 2.33em 0;
-}
-
 /**
  * Address styling not present in IE 7/8/9, Safari 5, and Chrome.
  */
@@ -630,9 +590,10 @@ img {
 h2 {
     font-size: 18px;
     font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
     letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 40px 0;
 }
 
 h3 {
@@ -640,6 +601,7 @@ h3 {
     font-size: 16px;
     font-weight: 700;
     text-align: center;
+    margin: 0 0 40px 0;
 }
 
 .work-title {
@@ -718,6 +680,10 @@ h3 {
     width: 500px;
 }
 
+.poem-page h2 {
+    margin-bottom: 0;
+}
+
 .line-number {
     float: right;
     font-size: 14px;
@@ -728,7 +694,7 @@ h3 {
     font-size: 0;
     line-height: 0;
     text-align: center;
-    width: 1020px;
+    width: 1000px;
 }
 
 .grid-item {
