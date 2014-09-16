@@ -642,6 +642,10 @@ h3 {
     text-align: center;
 }
 
+.work-title {
+    font-style: italic;
+}
+
 .page-header {
     font-size: 16px;
     font-weight: 600;
