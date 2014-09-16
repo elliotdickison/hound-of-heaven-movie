@@ -689,9 +689,8 @@ h3 {
     text-align: center;
 }
 
-form {
+.contact-page {
     width: 540px;
-    margin: 0 auto;
 }
 
 input[type=text],
@@ -702,18 +701,26 @@ textarea {
     border: 1px solid #ddd;
     box-sizing: border-box;
     display: block;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
     padding: 10px 15px;
     width: 100%;
-    margin-bottom: 20px;
 }
 
-input[type=text].split {
-    width: 260px;
+label {
+    display: block;
+    font-size: 16px;
+}
+
+input[type=text].split,
+label.split {
     float: left;
     margin-left: 20px;
+    width: 260px;
 }
 
-input[type=text].split:first-child {
+input[type=text].split:first-child,
+label.split:first-child {
     margin-left: 0;
 }
 
