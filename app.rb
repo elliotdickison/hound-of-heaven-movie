@@ -63,7 +63,7 @@ post '/contact' do
     Pony.mail({
       from: "#{params[:first]} #{params[:last]} <#{params[:email]}>",
       to: settings.contact_email,
-      subject: params[:subject],
+      subject: "#{params[:subject]} [HoH Contact Form]",
       body: params[:body]
     })
     success = true
