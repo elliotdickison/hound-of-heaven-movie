@@ -596,6 +596,10 @@ h2 {
     margin: 0 0 40px 0;
 }
 
+h2.padded {
+    margin-top: 40px;
+}
+
 h3 {
     color: #999;
     font-size: 16px;
@@ -695,6 +699,7 @@ h3 {
     line-height: 0;
     text-align: center;
     width: 1000px;
+    margin-bottom: -40px;
 }
 
 .grid-item {
