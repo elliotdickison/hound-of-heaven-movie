@@ -5,4 +5,5 @@ ruby '2.1.0'
 gem 'log_buddy'
 gem 'rake'
 gem 'sinatra'
+gem 'pony'
 gem 'webrick', :group => :development

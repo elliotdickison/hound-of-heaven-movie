@@ -2,6 +2,11 @@ GEM
   remote: https://rubygems.org/
   specs:
     log_buddy (0.7.0)
+    mail (2.6.1)
+      mime-types (>= 1.16, < 3)
+    mime-types (2.3)
+    pony (1.11)
+      mail (>= 2.0)
     rack (1.5.2)
     rack-protection (1.5.0)
       rack
@@ -18,6 +23,7 @@ PLATFORMS
 
 DEPENDENCIES
   log_buddy
+  pony
   rake
   sinatra
   webrick

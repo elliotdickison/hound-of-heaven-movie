@@ -13,6 +13,23 @@ configure :development do
   set :dump_errors, true
 end
 
+# Setup pony mail
+set :send_mail, settings.environment == :production
+configure :production do
+  Pony.options = {
+    :via => :smtp,
+    :via_options => {
+      :address => 'smtp.sendgrid.net',
+      :port => '587',
+      :domain => 'heroku.com',
+      :user_name => ENV['SENDGRID_USERNAME'],
+      :password => ENV['SENDGRID_PASSWORD'],
+      :authentication => :plain,
+      :enable_starttls_auto => true
+    }
+  }
+end
+
 # Set the views folder
 set :views, Proc.new { File.join(root, 'app', 'views') }
 
@@ -39,6 +56,23 @@ end
 
 get '/contact' do
   erb :contact
+end
+
+post '/contact' do
+  success = false
+  if settings.send_mail
+    begin
+      Pony.mail({
+        from: "#{params[:first]} #{params[:last]} <#{params[:email]}>",
+        to: settings.contact_email,
+        subject: params[:subject],
+        body: params[:body]
+      })
+      success = true
+    rescue
+    end
+  end
+  erb :contact, locals: {success: success}
 end
 
 not_found do

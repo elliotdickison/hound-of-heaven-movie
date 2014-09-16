@@ -688,3 +688,44 @@ h3 {
     padding: 60px 0;
     text-align: center;
 }
+
+form {
+    width: 540px;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    background: #f2f2f2;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 15px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input[type=text].split {
+    width: 260px;
+    float: left;
+    margin-left: 20px;
+}
+
+input[type=text].split:first-child {
+    margin-left: 0;
+}
+
+input[type=submit] {
+    background: #000;
+    border-radius: 3px;
+    border: none;
+    color: #f2f2f2;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 auto;
+    padding: 10px 25px;
+}
