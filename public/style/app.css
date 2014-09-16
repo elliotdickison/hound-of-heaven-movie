@@ -668,6 +668,19 @@ h3 {
     font-weight: 700;
 }
 
+.grid {
+    font-size: 0;
+    line-height: 0;
+    text-align: center;
+    width: 1020px;
+}
+
+.grid-item {
+    display: inline-block;
+    margin: 0 40px 40px 0;
+    width: 460px;
+}
+
 .page-footer {
     color: #999;
     font-size: 16px;
