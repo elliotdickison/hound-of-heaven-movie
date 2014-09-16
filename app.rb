@@ -14,7 +14,7 @@ configure :development do
 end
 
 # Setup pony mail
-set :contact_email, 'ejdickison@gmail.com'
+set :contact_email, 'aaronrench@gmail.com'
 configure :production do
   Pony.options = {
     :via => :smtp,
