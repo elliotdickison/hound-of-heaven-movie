@@ -18,10 +18,11 @@ cur_page_title = pages[cur_page]
         <meta name="description" content="Hound of Heaven Movie">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
-        <title><%= (cur_page_title.size > 0 ? "#{cur_page_title.gsub(%r{</?[^>]+?>}, '').strip} | " : '') %>Hound of Heaven Movie</title>
+        <title>Hound of Heaven Movie<%= (cur_page_title.size > 0 ? " | #{cur_page_title.gsub(%r{</?[^>]+?>}, '').strip}" : '') %></title>
         
         <link rel="icon" type="image/png" href="/img/favicon.png" />
         <link rel="stylesheet" href="/style/app.css">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600,700' rel='stylesheet' type='text/css'>
     </head>
     <body ontouchstart>
         <header class="page-header cf">
@@ -38,7 +39,7 @@ cur_page_title = pages[cur_page]
             <%= yield %>
         </div>
         <footer class="page-footer">
-            Copyright <%= Time.now.year %>
+            Copyright <%= Time.now.year %> Gorilla Poet Productions
         </footer>
         <script type="text/javascript" src="/script/app.js"></script>
     </body>

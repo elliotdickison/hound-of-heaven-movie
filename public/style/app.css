@@ -169,12 +169,12 @@ abbr[title] {
 }
 
 /**
- * Address style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
+ * Address style set to `700` in Firefox 3+, Safari 4/5, and Chrome.
  */
 
 b,
 strong {
-    font-weight: bold;
+    font-weight: 700;
 }
 
 blockquote {
@@ -560,8 +560,10 @@ html[xmlns] .cf {
 
 body {
     color: #333;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
 }
 
 a {
@@ -569,34 +571,56 @@ a {
     text-decoration: none;
 }
 
+p {
+    margin: 0 0 20px 0;
+}
+
 img {
     display: block;
     width: 100%;
 }
 
-.page-header {
-    margin: 0 auto;
-    overflow: visible;
-    padding: 30px 0;
+h2 {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
     text-align: center;
-    width: 700px;
+    letter-spacing: 2px;
+}
+
+h3 {
+    color: #999;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.page-header {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 60px auto 40px auto;
+    overflow: visible;
+    text-align: center;
+    width: 600px;
 }
 
 .page-header-bg {
-    margin: 0 auto 30px auto;
-    width: 575px;
+    margin: 0 auto 20px auto;
+    width: 550px;
 }
 
 .page-header-nav ul {
+    color: #999;
+    letter-spacing: 2px;
     list-style: none;
+    margin-left: -5px; /* Center edge-to-edge (even though 'Home' is shorter than 'Contact') */
     padding: 0;
     text-align: center;
-    color: #999;
 }
 
 .page-header-nav li.active {
     color: #333;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .page-header-nav li {
@@ -620,9 +644,33 @@ img {
     margin: 0 auto;
 }
 
+.home-quote {
+    margin: 60px auto;
+    text-align: center;
+    width: 450px;
+}
+
+.home-quote-author {
+    font-weight: 700;
+}
+
+.home-quote-author:before {
+    content: '– ';
+}
+
+.poem-page {
+    width: 500px;
+}
+
+.line-number {
+    float: right;
+    font-size: 14px;
+    font-weight: 700;
+}
+
 .page-footer {
     color: #999;
     font-size: 16px;
-    padding: 30px 0;
+    padding: 60px 0;
     text-align: center;
 }
