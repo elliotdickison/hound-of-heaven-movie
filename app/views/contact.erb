@@ -1,8 +1,8 @@
 <% if defined? success %>
     <% if success %>
-        <div class="success">Thanks, your message was sent.</div>
+        <div class="success-message">Thanks, your message was sent.</div>
     <% else %>
-        <div class="error">Your message could not be sent at this time. Please try again later.</div>
+        <div class="error-message">Your message could not be sent at this time. Please try again later.</div>
     <% end %>
 <% end %>
 <form method="POST" action="/contact">
@@ -19,6 +19,6 @@
     <label for="contact-subject">Subject</label>
     <input type="text" name="subject" id="contact-subject" />
     <label for="contact-body">Body</label>
-    <textarea name="body" id="contact-body"></textarea>
+    <textarea name="body" id="contact-body" rows="5"></textarea>
     <input type="submit" value="Submit" />
 </form>
