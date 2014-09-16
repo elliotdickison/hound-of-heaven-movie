@@ -8,7 +8,7 @@ configure :development do
   # Not efficient, but easy-peasy
   require 'webrick'
   set :server, 'webrick'
-  
+
   # Output errors
   set :dump_errors, true
 end
@@ -23,6 +23,22 @@ end
 
 get '/home' do
   erb :front
+end
+
+get '/about' do
+  erb :about
+end
+
+get '/poem' do
+  erb :poem
+end
+
+get '/stills' do
+  erb :stills
+end
+
+get '/contact' do
+  erb :contact
 end
 
 not_found do

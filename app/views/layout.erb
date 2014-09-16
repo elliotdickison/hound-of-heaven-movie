@@ -1,5 +1,7 @@
 <%
-@page_title ||= ''
+pages = {'home' => 'Home', 'about' => 'About', 'poem' => 'The Poem', 'stills' => 'Stills', 'contact' => 'Contact'}
+cur_page = request.path_info[1..-1]
+cur_page_title = pages[cur_page]
 %>
 <!DOCTYPE html>
 <!--
@@ -16,19 +18,27 @@
         <meta name="description" content="Hound of Heaven Movie">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
-        <title><%= (@page_title.size ? "#{@page_title.gsub(%r{</?[^>]+?>}, '').strip} | " : '') %>Hound of Heaven Movie</title>
+        <title><%= (cur_page_title.size > 0 ? "#{cur_page_title.gsub(%r{</?[^>]+?>}, '').strip} | " : '') %>Hound of Heaven Movie</title>
         
         <link rel="icon" type="image/png" href="/img/favicon.png" />
         <link rel="stylesheet" href="/style/app.css">
     </head>
     <body ontouchstart>
-        <header class="page-header">
-            
+        <header class="page-header cf">
+            <img class="page-header-bg" src="/img/header.jpg" />
+            <nav class="page-header-nav">
+                <ul>
+                    <% pages.each do |page, page_title| %>
+                        <li class='<%= page == cur_page ? 'active' : '' %>'><a href='/<%= page %>'><%= page_title %></a></li>
+                    <% end %>
+                </ul>
+            </nav>
         </header>
-        <div class="page-body">
+        <div class="page-body <%= cur_page %>-page">
             <%= yield %>
         </div>
         <footer class="page-footer">
+            Copyright <%= Time.now.year %>
         </footer>
         <script type="text/javascript" src="/script/app.js"></script>
     </body>
