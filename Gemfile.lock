@@ -5,6 +5,7 @@ GEM
     mail (2.6.1)
       mime-types (>= 1.16, < 3)
     mime-types (2.3)
+    newrelic_rpm (3.6.5.130)
     pony (1.11)
       mail (>= 2.0)
     rack (1.5.2)
@@ -23,6 +24,7 @@ PLATFORMS
 
 DEPENDENCIES
   log_buddy
+  newrelic_rpm
   pony
   rake
   sinatra
