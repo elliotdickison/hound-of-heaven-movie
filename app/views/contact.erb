@@ -1,3 +1,9 @@
+<% if !success.nil? %>
+    <% if success %>
+        <div class="success">Your message was sent.</div>
+    <% else %>
+        <div class="error">Your message could not be sent at this time. Please try again later.</div>
+<% end %>
 <form method="POST" action="/contact">
     <input class="split" type="text" name="first" />
     <input class="split" type="text" name="last" />
