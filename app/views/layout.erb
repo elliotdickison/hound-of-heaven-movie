@@ -1,0 +1,35 @@
+<%
+@page_title ||= ''
+%>
+<!DOCTYPE html>
+<!--
+
+
+-->
+<!--[if lt IE 7]>      <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Hound of Heaven Movie">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title><%= (@page_title.size ? "#{@page_title.gsub(%r{</?[^>]+?>}, '').strip} | " : '') %>Hound of Heaven Movie</title>
+        
+        <link rel="icon" type="image/png" href="/img/favicon.png" />
+        <link rel="stylesheet" href="/style/app.css">
+    </head>
+    <body ontouchstart>
+        <header class="page-header">
+            
+        </header>
+        <div class="page-body">
+            <%= yield %>
+        </div>
+        <footer class="page-footer">
+        </footer>
+        <script type="text/javascript" src="/script/app.js"></script>
+    </body>
+</html>
