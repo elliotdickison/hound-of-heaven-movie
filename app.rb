@@ -14,7 +14,7 @@ configure :development do
 end
 
 # Setup pony mail
-set :send_mail, settings.environment == :production
+set :contact_email, 'ejdickison@gmail.com'
 configure :production do
   Pony.options = {
     :via => :smtp,
@@ -59,18 +59,16 @@ get '/contact' do
 end
 
 post '/contact' do
-  success = false
-  if settings.send_mail
-    begin
-      Pony.mail({
-        from: "#{params[:first]} #{params[:last]} <#{params[:email]}>",
-        to: settings.contact_email,
-        subject: params[:subject],
-        body: params[:body]
-      })
-      success = true
-    rescue
-    end
+  begin
+    Pony.mail({
+      from: "#{params[:first]} #{params[:last]} <#{params[:email]}>",
+      to: settings.contact_email,
+      subject: params[:subject],
+      body: params[:body]
+    })
+    success = true
+  rescue
+    success = false
   end
   erb :contact, locals: {success: success}
 end
