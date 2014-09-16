@@ -1,0 +1,21 @@
+<%
+share_title = 'The Hound of Heaven'
+share_text = 'Official Selection Raindance Film Festival'
+share_link = 'http://houndofheavenmovie.com'
+%>
+<img class="big-banner" src="/img/home-banner.jpg" />
+<ul class="share-links">
+    <li><a href="https://www.facebook.com/sharer/sharer.php?u=<%= URI.escape share_link %>" target="_blank" class="icon-facebook"></a></li>
+    <li><a href="https://twitter.com/intent/tweet?text=<%= URI.escape "#{share_title} | #{share_text}" %>&url=<%= URI.escape share_link %>" target="_blank" class="icon-twitter"></a></li>
+    <li><a href="https://plus.google.com/share?en=<%= URI.escape "#{share_title} | #{share_text}" %>&url=<%= URI.escape share_link %>" target="_blank" class="icon-gplus"></a></li>
+</ul>
+<blockquote class="home-quote">
+    <p>
+        “&nbsp;The Hound of Heaven is a striking film, simultaneously brimming with aggression and tenderness. And Nate [N.D. Wilson] excels in his craft as a director and storyteller with this vivid and imaginative piece of cinema.&nbsp;”
+    </p>
+    <p>
+        『ハウンド・オヴ・ヘヴン』は、敵意と同時に優しさに満ちた、印象的な作品です。また、ネイト・ウィルソンは、今回、鮮明で創造的な映像作品を創りだすことに成功しており、監督、またストーリーテラーとして、技術的に非常に優れていると思います。
+    </p>
+    <span class="home-quote-author">Hisao Kurosawa</span>
+</blockquote>
+<img class="home-poster" src="/img/poster.jpg" />

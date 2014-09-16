@@ -39,7 +39,7 @@ get '/' do
 end
 
 get '/home' do
-  erb :front
+  erb :home
 end
 
 get '/about' do
