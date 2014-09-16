@@ -788,7 +788,9 @@ h3 {
 }
 
 .grid-item {
+    background: #f2f2f2;
     display: inline-block;
+    height: 316px;
     margin: 0 40px 40px 0;
     width: 460px;
 }

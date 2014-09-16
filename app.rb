@@ -3,6 +3,9 @@ require 'rubygems'
 require 'bundler'
 Bundler.require
 
+# Target address for contact form
+set :contact_email, 'aaronrench@gmail.com'
+
 configure :development do
 
   # Not efficient, but easy-peasy
@@ -13,9 +16,12 @@ configure :development do
   set :dump_errors, true
 end
 
-# Setup pony mail
-set :contact_email, 'aaronrench@gmail.com'
 configure :production do
+
+  # Analytics
+  require 'newrelic_rpm'
+
+  # Mail
   Pony.options = {
     :via => :smtp,
     :via_options => {
