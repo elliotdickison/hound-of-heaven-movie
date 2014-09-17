@@ -26,8 +26,8 @@ cur_page_title = pages[cur_page]
     </head>
     <body ontouchstart>
         <header class="page-header cf">
-            <a href="/"><img class="page-header-bg" src="/img/header.jpg" /></a>
-            <nav class="page-header-nav">
+            <a href="/"><img class="page-logo" src="/img/header.jpg" /></a>
+            <nav class="page-nav">
                 <ul>
                     <% pages.each do |page, page_title| %>
                         <li class='<%= page == cur_page ? 'active' : '' %>'><a href='/<%= page %>'><%= page_title %></a></li>

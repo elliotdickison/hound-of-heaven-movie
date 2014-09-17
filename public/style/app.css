@@ -625,7 +625,10 @@ body {
     font-size: 18px;
     font-weight: 300;
     line-height: 28px;
+    margin: 0 auto;
+    max-width: 960px;
     overflow-y: scroll;
+    width: 100%;
 }
 
 a {
@@ -670,54 +673,62 @@ h3 {
 .page-header {
     font-size: 16px;
     font-weight: 600;
-    margin: 40px auto;
+    margin: 0 auto;
+    max-width: 550px;
     overflow: visible;
+    padding: 40px 20px 20px 20px;
     text-align: center;
-    width: 600px;
 }
 
-.page-header-bg {
+.page-logo {
     margin: 0 auto 20px auto;
-    width: 550px;
 }
 
-.page-header-nav ul {
+.page-nav {
+    margin-bottom: -1em;
+    text-align: justify;
+}
+
+.page-nav > * {
+    display: inline;
+}
+
+.page-nav ul {
     color: #999;
     letter-spacing: 2px;
-    margin-left: -5px; /* Center edge-to-edge (even though 'Home' is shorter than 'Contact') */
-    text-align: center;
 }
 
-.page-header-nav li.active {
+.page-nav li {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.page-nav li.active {
     color: #333;
     font-weight: 700;
 }
 
-.page-header-nav li {
-    display: block;
-    float: left;
-    text-transform: uppercase;
-    width: 20%;
+.page-nav ul:after {
+    content: '';
+    display: inline-block;
+    height: 0;
+    position: relative;
+    width: 100%;
 }
 
-.page-header-nav a {
+.page-nav a {
     transition: color 0.2s ease-in-out;
 }
 
-.page-header-nav a:hover {
+.page-nav a:hover {
     color: #333;
-}
-
-.page-body {
-    margin: 0 auto;
-    max-width: 960px;
 }
 
 .big-banner {
     background: #f2f2f2;
-    height: 316px;
+    display: block;
     margin-bottom: 60px;
-    width: 960px;
+    max-width: 960px;
 }
 
 .home-page {
@@ -749,14 +760,18 @@ h3 {
 }
 
 .home-poster {
-    width: 450px;
+    box-sizing: border-box;
     margin: 0 auto;
+    max-width: 550px;
+    padding: 0 20px;
+    width: 100%;
 }
 
 .home-quote {
     margin: 0 auto 60px auto;
+    max-width: 550px;
+    padding: 0 20px;
     text-align: center;
-    width: 450px;
 }
 
 .home-quote-author {
@@ -767,8 +782,17 @@ h3 {
     content: '– ';
 }
 
+.about-page p {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 550px;
+    padding: 0 20px;
+}
+
 .poem-page {
-    width: 500px;
+    margin: 0 auto;
+    max-width: 550px;
+    padding: 0 20px;
 }
 
 .poem-page h2 {
@@ -784,28 +808,31 @@ h3 {
 .grid {
     font-size: 0;
     line-height: 0;
-    text-align: center;
-    width: 1000px;
     margin-bottom: -40px;
+    width: calc(100% + 40px);
+    padding: 0 40px;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 .grid-item {
     background: #f2f2f2;
     display: inline-block;
-    height: 242px;
     margin: 0 40px 40px 0;
-    width: 460px;
+    width: calc(50% - 40px);
 }
 
 .page-footer {
     color: #999;
     font-size: 16px;
-    padding: 60px 0;
+    padding: 60px 20px;
     text-align: center;
 }
 
 .contact-page {
-    width: 540px;
+    margin: 0 auto;
+    max-width: 550px;
+    padding: 0 20px;
 }
 
 .success-message,
@@ -840,7 +867,7 @@ input[type=text].split,
 label.split {
     float: left;
     margin-left: 20px;
-    width: 260px;
+    width: calc(50% - 10px);
 }
 
 input[type=text].split:first-child,
