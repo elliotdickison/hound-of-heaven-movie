@@ -762,7 +762,7 @@ h3 {
 
 .home-poster {
     box-sizing: border-box;
-    margin: 0 auto;
+    margin: 0 auto 40px auto;
     max-width: 550px;
     padding: 0 20px;
     width: 100%;
@@ -788,10 +788,11 @@ h3 {
     margin-right: auto;
     max-width: 550px;
     padding: 0 20px;
+    margin-bottom: 40px;
 }
 
 .poem-page {
-    margin: 0 auto;
+    margin: 0 auto 40px auto;
     max-width: 550px;
     padding: 0 20px;
 }
@@ -809,7 +810,6 @@ h3 {
 .grid {
     font-size: 0;
     line-height: 0;
-    margin-bottom: -40px;
     width: calc(100% + 40px);
     padding: 0 40px;
     text-align: center;
@@ -826,12 +826,12 @@ h3 {
 .page-footer {
     color: #999;
     font-size: 16px;
-    padding: 60px 20px;
+    padding: 0 20px 40px 20px;
     text-align: center;
 }
 
 .contact-page {
-    margin: 0 auto;
+    margin: 0 auto 40px auto;
     max-width: 550px;
     padding: 0 20px;
 }
