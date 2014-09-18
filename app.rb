@@ -60,6 +60,10 @@ get '/stills' do
   erb :stills
 end
 
+get '/stills/theater' do
+  erb :theater, locals: {index: params[:i]}
+end
+
 get '/contact' do
   erb :contact
 end

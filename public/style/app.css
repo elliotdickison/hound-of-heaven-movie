@@ -681,6 +681,11 @@ h3 {
     text-align: center;
 }
 
+.page-body {
+    overflow: hidden;
+    width: 100%;
+}
+
 .page-logo {
     margin: 0 auto 20px auto;
 }
@@ -810,17 +815,31 @@ h3 {
 .grid {
     font-size: 0;
     line-height: 0;
-    width: calc(100% + 40px);
-    padding: 0 40px;
     text-align: center;
-    box-sizing: border-box;
+    margin: 0 -20px -20px 0;
 }
 
 .grid-item {
-    background: #f2f2f2;
     display: inline-block;
-    margin: 0 40px 40px 0;
-    width: calc(50% - 40px);
+    height: auto;
+    margin: 0 20px 20px 0;
+    max-width: 100%;
+    overflow: hidden;
+    transition: opacity 0.2s ease-in-out;
+    width: 306px;
+}
+
+.grid-item:hover {
+    opacity: 0.8;
+}
+
+.fotorama {
+    background: #000;
+    margin-bottom: 40px;
+}
+
+.fotorama .fotorama__nav-wrap {
+    background: #fff;
 }
 
 .page-footer {

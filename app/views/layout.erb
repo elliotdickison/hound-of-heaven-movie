@@ -1,6 +1,6 @@
 <%
 pages = {'home' => 'Home', 'about' => 'About', 'poem' => 'The Poem', 'stills' => 'Stills', 'contact' => 'Contact'}
-cur_page = request.path_info[1..-1]
+cur_page = request.path_info[1..-1].split('/').first
 cur_page_title = pages[cur_page]
 %>
 <!DOCTYPE html>
