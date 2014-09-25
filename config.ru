@@ -1,3 +1,6 @@
+# Compress
+use Rack::Deflater
+
 # App
 require './app'
 
