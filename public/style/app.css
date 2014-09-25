@@ -682,7 +682,6 @@ h3 {
 .page-body {
     margin: 0 auto;
     max-width: 960px;
-    width: 100%;
 }
 
 .page-logo {
@@ -855,9 +854,8 @@ h3 {
 }
 
 .contact-page {
-    box-sizing: border-box;
     margin: 0 auto 40px auto;
-    max-width: 590px;
+    max-width: 550px;
     padding: 0 20px;
 }
 
