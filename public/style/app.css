@@ -960,6 +960,10 @@ input[type=submit] {
 		display: block;
 	}
 
+	.grid-item {
+		width: calc(100% - 20px);
+	}
+
 	/* Don't change opacity on mobile... ios safari stops painting on scroll and makes hover effects look crappy */
 	.grid-item:hover {
 		opacity: 1;
