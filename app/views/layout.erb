@@ -34,7 +34,10 @@ cur_page_title = pages[cur_page]
     <body ontouchstart>
         <header class="page-header cf">
             <a href="/"><img class="page-logo" src="/img/header.jpg" /></a>
+            <div class="mobile-only page-title"><%= cur_page_title %></div>
             <nav class="page-nav">
+                <input class="hidden" type="checkbox" id="menu" />
+                <label class="mobile-only" for="menu">Menu</label>
                 <ul>
                     <% pages.each do |page, page_title| %>
                         <li class='<%= page == cur_page ? 'active' : '' %>'><a href='/<%= page %>'><%= page_title %></a></li>

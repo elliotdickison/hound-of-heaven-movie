@@ -671,6 +671,7 @@ h3 {
 .page-header {
     font-size: 16px;
     font-weight: 600;
+    letter-spacing: 2px;
     margin: 0 auto;
     max-width: 550px;
     overflow: visible;
@@ -699,7 +700,6 @@ h3 {
 
 .page-nav ul {
     color: #999;
-    letter-spacing: 2px;
 }
 
 .page-nav li {
@@ -912,4 +912,58 @@ input[type=submit] {
     font-weight: 300;
     margin: 0 auto;
     padding: 10px 25px;
+}
+
+.hidden,
+.mobile-only {
+	display: none;
+}
+
+@media all and (max-width: 500px) {
+
+	.mobile-only {
+		display: block;
+	}
+
+	.page-header {
+		padding-top: 20px;
+		line-height: 2em;
+	}
+
+	.page-nav label {
+		color: #999;
+		cursor: pointer;
+		float: right;
+		text-transform: uppercase;
+	}
+
+	.page-nav ul {
+		clear: both;
+		display: none;
+		margin: 0 0 -1.5em 0;
+		text-align: right;
+	}
+
+	.page-nav li {
+		display: block;
+	}
+
+	.page-title {
+		float: left;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+
+	#menu:checked ~ label {
+		color: #ddd;
+	}
+
+	#menu:checked ~ ul {
+		display: block;
+	}
+
+	/* Don't change opacity on mobile... ios safari stops painting on scroll and makes hover effects look crappy */
+	.grid-item:hover {
+		opacity: 1;
+	}
 }
