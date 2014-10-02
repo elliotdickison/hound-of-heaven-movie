@@ -6,7 +6,7 @@ require 'rake'
 require 'sinatra'
 
 # Target address for contact form
-set :contact_email, 'ejdickison@gmail.com' #'aaronrench@gmail.com'
+set :contact_email, 'aaronrench@gmail.com'
 
 configure :development do
 
