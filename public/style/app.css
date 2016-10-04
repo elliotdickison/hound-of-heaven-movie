@@ -707,12 +707,8 @@ h3 {
     background: #333;
 }
 
-.home-poster {
-    box-sizing: border-box;
+.home-trailer {
     margin: 0 auto 40px auto;
-    max-width: 550px;
-    padding: 0 20px;
-    width: 100%;
 }
 
 .home-quote {
