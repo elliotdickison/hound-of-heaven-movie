@@ -696,11 +696,11 @@ h3 {
 }
 
 .store-link--amazon {
-  background-image: url('/img/stores/amazon.png');
+  background-image: url('/img/stores/aiv.png');
 }
 
-.store-link--apple {
-  background-image: url('/img/stores/apple.png');
+.store-link--itunes {
+  background-image: url('/img/stores/itunes.svg');
 }
 
 .share-links a:hover {
