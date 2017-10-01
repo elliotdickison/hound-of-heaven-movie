@@ -1,4 +1,3 @@
-
 /*! normalize.css v1.1.1 | MIT License | git.io/normalize */
 
 /* ==========================================================================
@@ -21,7 +20,7 @@ main,
 nav,
 section,
 summary {
-    display: block;
+  display: block;
 }
 
 /**
@@ -31,9 +30,9 @@ summary {
 audio,
 canvas,
 video {
-    display: inline-block;
-    *display: inline;
-    *zoom: 1;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
 }
 
 /**
@@ -42,8 +41,8 @@ video {
  */
 
 audio:not([controls]) {
-    display: none;
-    height: 0;
+  display: none;
+  height: 0;
 }
 
 /**
@@ -52,7 +51,7 @@ audio:not([controls]) {
  */
 
 [hidden] {
-    display: none;
+  display: none;
 }
 
 /* ==========================================================================
@@ -71,11 +70,11 @@ audio:not([controls]) {
  */
 
 html {
-    background: #fff; /* 1 */
-    color: #000; /* 2 */
-    font-size: 100%; /* 3 */
-    -webkit-text-size-adjust: 100%; /* 4 */
-    -ms-text-size-adjust: 100%; /* 4 */
+  background: #fff; /* 1 */
+  color: #000; /* 2 */
+  font-size: 100%; /* 3 */
+  -webkit-text-size-adjust: 100%; /* 4 */
+  -ms-text-size-adjust: 100%; /* 4 */
 }
 
 /**
@@ -88,7 +87,7 @@ button,
 input,
 select,
 textarea {
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 /**
@@ -96,7 +95,7 @@ textarea {
  */
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
 /* ==========================================================================
@@ -108,7 +107,7 @@ body {
  */
 
 a:focus {
-    outline: thin dotted;
+  outline: thin dotted;
 }
 
 /**
@@ -117,7 +116,7 @@ a:focus {
 
 a:active,
 a:hover {
-    outline: 0;
+  outline: 0;
 }
 
 /**
@@ -125,7 +124,7 @@ a:hover {
  */
 
 abbr[title] {
-    border-bottom: 1px dotted;
+  border-bottom: 1px dotted;
 }
 
 /**
@@ -134,11 +133,11 @@ abbr[title] {
 
 b,
 strong {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 blockquote {
-    margin: 1em 40px;
+  margin: 1em 40px;
 }
 
 /**
@@ -146,7 +145,7 @@ blockquote {
  */
 
 dfn {
-    font-style: italic;
+  font-style: italic;
 }
 
 /**
@@ -155,9 +154,9 @@ dfn {
  */
 
 hr {
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-    height: 0;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
 }
 
 /**
@@ -165,8 +164,8 @@ hr {
  */
 
 mark {
-    background: #ff0;
-    color: #000;
+  background: #ff0;
+  color: #000;
 }
 
 /**
@@ -175,7 +174,7 @@ mark {
 
 p,
 pre {
-    margin: 1em 0;
+  margin: 1em 0;
 }
 
 /**
@@ -186,9 +185,9 @@ code,
 kbd,
 pre,
 samp {
-    font-family: monospace, serif;
-    _font-family: 'courier new', monospace;
-    font-size: 1em;
+  font-family: monospace, serif;
+  _font-family: "courier new", monospace;
+  font-size: 1em;
 }
 
 /**
@@ -196,9 +195,9 @@ samp {
  */
 
 pre {
-    white-space: pre;
-    white-space: pre-wrap;
-    word-wrap: break-word;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 
 /**
@@ -206,7 +205,7 @@ pre {
  */
 
 q {
-    quotes: none;
+  quotes: none;
 }
 
 /**
@@ -215,8 +214,8 @@ q {
 
 q:before,
 q:after {
-    content: '';
-    content: none;
+  content: "";
+  content: none;
 }
 
 /**
@@ -224,7 +223,7 @@ q:after {
  */
 
 small {
-    font-size: 80%;
+  font-size: 80%;
 }
 
 /**
@@ -233,18 +232,18 @@ small {
 
 sub,
 sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
 }
 
 sup {
-    top: -0.5em;
+  top: -0.5em;
 }
 
 sub {
-    bottom: -0.25em;
+  bottom: -0.25em;
 }
 
 /* ==========================================================================
@@ -259,11 +258,11 @@ dl,
 menu,
 ol,
 ul {
-    margin: 1em 0;
+  margin: 1em 0;
 }
 
 dd {
-    margin: 0 0 0 40px;
+  margin: 0 0 0 40px;
 }
 
 /**
@@ -273,9 +272,9 @@ dd {
 menu,
 ol,
 ul {
-    padding: 0;
-    list-style: none;
-    list-style-image: none;
+  padding: 0;
+  list-style: none;
+  list-style-image: none;
 }
 
 /* ==========================================================================
@@ -288,8 +287,8 @@ ul {
  */
 
 img {
-    border: 0; /* 1 */
-    -ms-interpolation-mode: bicubic; /* 2 */
+  border: 0; /* 1 */
+  -ms-interpolation-mode: bicubic; /* 2 */
 }
 
 /**
@@ -297,7 +296,7 @@ img {
  */
 
 svg:not(:root) {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 /* ==========================================================================
@@ -309,7 +308,7 @@ svg:not(:root) {
  */
 
 figure {
-    margin: 0;
+  margin: 0;
 }
 
 /* ==========================================================================
@@ -321,7 +320,7 @@ figure {
  */
 
 form {
-    margin: 0;
+  margin: 0;
 }
 
 /**
@@ -329,9 +328,9 @@ form {
  */
 
 fieldset {
-    border: 1px solid #c0c0c0;
-    margin: 0 2px;
-    padding: 0.35em 0.625em 0.75em;
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
 }
 
 /**
@@ -341,10 +340,10 @@ fieldset {
  */
 
 legend {
-    border: 0; /* 1 */
-    padding: 0;
-    white-space: normal; /* 2 */
-    *margin-left: -7px; /* 3 */
+  border: 0; /* 1 */
+  padding: 0;
+  white-space: normal; /* 2 */
+  *margin-left: -7px; /* 3 */
 }
 
 /**
@@ -358,10 +357,10 @@ button,
 input,
 select,
 textarea {
-    font-size: 100%; /* 1 */
-    margin: 0; /* 2 */
-    vertical-align: baseline; /* 3 */
-    *vertical-align: middle; /* 3 */
+  font-size: 100%; /* 1 */
+  margin: 0; /* 2 */
+  vertical-align: baseline; /* 3 */
+  *vertical-align: middle; /* 3 */
 }
 
 /**
@@ -371,7 +370,7 @@ textarea {
 
 button,
 input {
-    line-height: normal;
+  line-height: normal;
 }
 
 /**
@@ -383,7 +382,7 @@ input {
 
 button,
 select {
-    text-transform: none;
+  text-transform: none;
 }
 
 /**
@@ -397,12 +396,12 @@ select {
  */
 
 button,
-html input[type="button"], /* 1 */
-input[type="reset"],
+html input[type="button"],
+/* 1 */ input[type="reset"],
 input[type="submit"] {
-    -webkit-appearance: button; /* 2 */
-    cursor: pointer; /* 3 */
-    *overflow: visible;  /* 4 */
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
+  *overflow: visible; /* 4 */
 }
 
 /**
@@ -411,7 +410,7 @@ input[type="submit"] {
 
 button[disabled],
 html input[disabled] {
-    cursor: default;
+  cursor: default;
 }
 
 /**
@@ -423,10 +422,10 @@ html input[disabled] {
 
 input[type="checkbox"],
 input[type="radio"] {
-    box-sizing: border-box; /* 1 */
-    padding: 0; /* 2 */
-    *height: 13px; /* 3 */
-    *width: 13px; /* 3 */
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+  *height: 13px; /* 3 */
+  *width: 13px; /* 3 */
 }
 
 /**
@@ -436,10 +435,10 @@ input[type="radio"] {
  */
 
 input[type="search"] {
-    -webkit-appearance: textfield; /* 1 */
-    -moz-box-sizing: content-box;
-    -webkit-box-sizing: content-box; /* 2 */
-    box-sizing: content-box;
+  -webkit-appearance: textfield; /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box; /* 2 */
+  box-sizing: content-box;
 }
 
 /**
@@ -449,7 +448,7 @@ input[type="search"] {
 
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
-    -webkit-appearance: none;
+  -webkit-appearance: none;
 }
 
 /**
@@ -458,8 +457,8 @@ input[type="search"]::-webkit-search-decoration {
 
 button::-moz-focus-inner,
 input::-moz-focus-inner {
-    border: 0;
-    padding: 0;
+  border: 0;
+  padding: 0;
 }
 
 /**
@@ -468,8 +467,8 @@ input::-moz-focus-inner {
  */
 
 textarea {
-    overflow: auto; /* 1 */
-    vertical-align: top; /* 2 */
+  overflow: auto; /* 1 */
+  vertical-align: top; /* 2 */
 }
 
 /* ==========================================================================
@@ -481,54 +480,66 @@ textarea {
  */
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* ==========================================================================
    Form Reset
    ========================================================================== */
 
-textarea, select, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"]{
+textarea,
+select,
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"] {
+  -webkit-box-sizing: border-box;
 
--webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 
--moz-box-sizing: border-box;
+  box-sizing: border-box;
 
-box-sizing: border-box;
+  -webkit-background-clip: padding;
 
--webkit-background-clip: padding;
+  -moz-background-clip: padding;
 
--moz-background-clip: padding;
+  background-clip: padding-box;
 
-background-clip:padding-box;
+  -webkit-border-radius: 0;
 
--webkit-border-radius:0;
+  -moz-border-radius: 0;
 
--moz-border-radius:0;
+  -ms-border-radius: 0;
 
--ms-border-radius:0;
+  -o-border-radius: 0;
 
--o-border-radius:0;
+  border-radius: 0;
 
-border-radius:0;
+  -webkit-appearance: none;
 
--webkit-appearance:none;
+  background-color: #fff;
 
-background-color:#fff;
+  color: #000;
 
-color:#000;
+  outline: 0;
 
-outline:0;
+  margin: 0;
 
-margin:0;
+  padding: 0;
 
-padding:0;
+  text-align: left;
 
-text-align: left;
-
-vertical-align: middle;
-
+  vertical-align: middle;
 }
 
 /* ==========================================================================
@@ -536,20 +547,20 @@ vertical-align: middle;
    ========================================================================== */
 
 .cf:after {
-    content: ".";
-    display: block;
-    clear: both;
-    visibility: hidden;
-    line-height: 0;
-    height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 html[xmlns] .cf {
-    display: block;
+  display: block;
 }
 
 * html .cf {
-    height: 1%;
+  height: 1%;
 }
 
 /* ==========================================================================
@@ -557,131 +568,131 @@ html[xmlns] .cf {
    ==========================================================================*/
 
 body {
-    color: #333;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 28px;
-    overflow-x: hidden;
-    overflow-y: scroll;
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 p {
-    margin: 0 0 40px 0;
+  margin: 0 0 40px 0;
 }
 
 img {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 h2 {
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 0 0 40px 0;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 0 40px 0;
 }
 
 h2.padded {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 h3 {
-    color: #999;
-    font-size: 16px;
-    font-weight: 700;
-    text-align: center;
-    margin: 0 0 40px 0;
+  color: #999;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 40px 0;
 }
 
 .work-title {
-    font-style: italic;
+  font-style: italic;
 }
 
 .page-header {
-    font-size: 16px;
-    font-weight: 600;
-    letter-spacing: 2px;
-    margin: 0 auto;
-    max-width: 550px;
-    overflow: visible;
-    padding: 40px 20px 20px 20px;
-    text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: 0 auto;
+  max-width: 550px;
+  overflow: visible;
+  padding: 40px 20px 20px 20px;
+  text-align: center;
 }
 
 .page-body {
-    margin: 0 auto;
-    max-width: 960px;
+  margin: 0 auto;
+  max-width: 960px;
 }
 
 .page-logo {
-    margin: 0 auto 20px auto;
+  margin: 0 auto 20px auto;
 }
 
 .page-nav {
-    margin-bottom: -1em;
-    text-align: justify;
+  margin-bottom: -1em;
+  text-align: justify;
 }
 
 .page-nav > * {
-    display: inline;
+  display: inline;
 }
 
 .page-nav ul {
-    color: #999;
+  color: #999;
 }
 
 .page-nav li {
-    display: inline-block;
-    text-transform: uppercase;
+  display: inline-block;
+  text-transform: uppercase;
 }
 
 .page-nav li.active {
-    color: #333;
-    font-weight: 700;
+  color: #333;
+  font-weight: 700;
 }
 
 .page-nav ul:after {
-    content: '';
-    display: inline-block;
-    height: 0;
-    position: relative;
-    width: 100%;
+  content: "";
+  display: inline-block;
+  height: 0;
+  position: relative;
+  width: 100%;
 }
 
 .page-nav a {
-    transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
 }
 
 .page-nav a:hover {
-    color: #333;
+  color: #333;
 }
 
 .big-banner {
-    background: #f2f2f2;
-    display: block;
-    margin-bottom: 60px;
-    max-width: 960px;
+  background: #f2f2f2;
+  display: block;
+  margin-bottom: 60px;
+  max-width: 960px;
 }
 
 .home-page {
-    text-align: center;
+  text-align: center;
 }
 
 .store-links {
-    margin: -10px 0 40px 0;
+  margin: -10px 0 40px 0;
 }
 
 .store-links li {
-    display: inline-block;
-    margin: 10px;
+  display: inline-block;
+  margin: 10px;
 }
 
 .store-link {
@@ -695,73 +706,73 @@ h3 {
 }
 
 .store-link--amazon-instant-video {
-  background-image: url('/img/stores/amazon-instant-video.png');
+  background-image: url("/images/store-logos/amazon-instant-video.png");
 }
 
 .store-link--apple-itunes {
-  background-image: url('/img/stores/apple-itunes.svg');
+  background-image: url("/images/store-logos/apple-itunes.svg");
 }
 
 .store-link--google-play {
-  background-image: url('/img/stores/google-play.png');
+  background-image: url("/images/store-logos/google-play.png");
 }
 
 .share-links a:hover {
-    background: #333;
+  background: #333;
 }
 
 .home-trailer {
-    margin: 0 auto 40px auto;
-    height: 0;
-    position: relative;
-  	padding-bottom: 56.25%; /* 16:9 */
+  margin: 0 auto 40px auto;
+  height: 0;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
 }
 
 .home-trailer__embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .home-quote {
-    margin: 0 auto 60px auto;
-    max-width: 550px;
-    padding: 0 20px;
-    text-align: center;
+  margin: 0 auto 60px auto;
+  max-width: 550px;
+  padding: 0 20px;
+  text-align: center;
 }
 
 .home-quote-author {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .home-quote-author:before {
-    content: '– ';
+  content: "– ";
 }
 
 .about-page p {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 550px;
-    padding: 0 20px;
-    margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 550px;
+  padding: 0 20px;
+  margin-bottom: 40px;
 }
 
 .poem-page {
-    margin: 0 auto 40px auto;
-    max-width: 550px;
-    padding: 0 20px;
+  margin: 0 auto 40px auto;
+  max-width: 550px;
+  padding: 0 20px;
 }
 
 .poem-page h2 {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .line-number {
-    float: right;
-    font-size: 14px;
-    font-weight: 700;
+  float: right;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .stills-page {
@@ -772,155 +783,154 @@ h3 {
 }
 
 .grid {
-    font-size: 0;
-    line-height: 0;
-    text-align: center;
-    margin: 0 -20px 20px 0;
+  font-size: 0;
+  line-height: 0;
+  text-align: center;
+  margin: 0 -20px 20px 0;
 }
 
 .grid-item {
-    display: inline-block;
-    height: auto;
-    margin: 0 20px 20px 0;
-    max-width: calc(100% - 20px);
-    overflow: hidden;
-    transition: opacity 0.2s ease-in-out;
-    width: 306px;
+  display: inline-block;
+  height: auto;
+  margin: 0 20px 20px 0;
+  max-width: calc(100% - 20px);
+  overflow: hidden;
+  transition: opacity 0.2s ease-in-out;
+  width: 306px;
 }
 
 .grid-item:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 .fotorama {
-    background: #000;
-    margin-bottom: 40px;
+  background: #000;
+  margin-bottom: 40px;
 }
 
 .fotorama .fotorama__nav-wrap {
-    background: #fff;
+  background: #fff;
 }
 
 .page-footer {
-    color: #999;
-    font-size: 16px;
-    padding: 0 20px 40px 20px;
-    text-align: center;
+  color: #999;
+  font-size: 16px;
+  padding: 0 20px 40px 20px;
+  text-align: center;
 }
 
 .contact-page {
-    margin: 0 auto 40px auto;
-    max-width: 550px;
-    padding: 0 20px;
+  margin: 0 auto 40px auto;
+  max-width: 550px;
+  padding: 0 20px;
 }
 
 .success-message,
 .error-message {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
-input[type=text],
-input[type=email],
+input[type="text"],
+input[type="email"],
 textarea {
-    background: #f2f2f2;
-    border-radius: 3px;
-    border: 1px solid #ddd;
-    box-sizing: border-box;
-    display: block;
-    font-family: 'Open Sans', sans-serif;
-    margin-bottom: 20px;
-    padding: 10px 15px;
-    width: 100%;
+  background: #f2f2f2;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  width: 100%;
 }
 
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 label {
-    display: block;
-    font-size: 16px;
+  display: block;
+  font-size: 16px;
 }
 
-input[type=text].split,
+input[type="text"].split,
 label.split {
-    float: left;
-    margin-left: 20px;
-    width: calc(50% - 10px);
+  float: left;
+  margin-left: 20px;
+  width: calc(50% - 10px);
 }
 
-input[type=text].split:first-child,
+input[type="text"].split:first-child,
 label.split:first-child {
-    margin-left: 0;
+  margin-left: 0;
 }
 
-input[type=submit] {
-    background: #000;
-    border-radius: 3px;
-    border: none;
-    color: #f2f2f2;
-    display: block;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    margin: 0 auto;
-    padding: 10px 25px;
+input[type="submit"] {
+  background: #000;
+  border-radius: 3px;
+  border: none;
+  color: #f2f2f2;
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0 auto;
+  padding: 10px 25px;
 }
 
 .hidden,
 .mobile-only {
-	display: none;
+  display: none;
 }
 
 @media all and (max-width: 500px) {
+  .mobile-only {
+    display: block;
+  }
 
-	.mobile-only {
-		display: block;
-	}
+  .page-header {
+    padding-top: 20px;
+    line-height: 2em;
+  }
 
-	.page-header {
-		padding-top: 20px;
-		line-height: 2em;
-	}
+  .page-nav label {
+    color: #999;
+    cursor: pointer;
+    float: right;
+    text-transform: uppercase;
+  }
 
-	.page-nav label {
-		color: #999;
-		cursor: pointer;
-		float: right;
-		text-transform: uppercase;
-	}
+  .page-nav ul {
+    clear: both;
+    display: none;
+    margin: 0 0 -1.5em 0;
+    text-align: right;
+  }
 
-	.page-nav ul {
-		clear: both;
-		display: none;
-		margin: 0 0 -1.5em 0;
-		text-align: right;
-	}
+  .page-nav li {
+    display: block;
+  }
 
-	.page-nav li {
-		display: block;
-	}
+  .page-title {
+    float: left;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
 
-	.page-title {
-		float: left;
-		font-weight: 700;
-		text-transform: uppercase;
-	}
+  #menu:checked ~ label {
+    color: #ddd;
+  }
 
-	#menu:checked ~ label {
-		color: #ddd;
-	}
+  #menu:checked ~ ul {
+    display: block;
+  }
 
-	#menu:checked ~ ul {
-		display: block;
-	}
+  .grid-item {
+    width: calc(100% - 20px);
+  }
 
-	.grid-item {
-		width: calc(100% - 20px);
-	}
-
-	/* Don't change opacity on mobile... ios safari stops painting on scroll and makes hover effects look crappy */
-	.grid-item:hover {
-		opacity: 1;
-	}
+  /* Don't change opacity on mobile... ios safari stops painting on scroll and makes hover effects look crappy */
+  .grid-item:hover {
+    opacity: 1;
+  }
 }
